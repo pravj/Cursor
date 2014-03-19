@@ -1,9 +1,11 @@
 - title: visit to GitHub
   info: Last Sunday I was at GitHub
+  image: github.png
   date: 12/03/2014
   tag: github
 
 - title: happy birthday
   info: it was my birthday on 29
+  image: birthday.png
   date: 29/11/2013
   tag: birthday

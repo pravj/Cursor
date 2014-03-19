@@ -9,5 +9,6 @@ host: 0.0.0.0
 baseurl: /
 
 cursor:
-  title: "pravj | cursor"
-  favicon: "./assets/favicon.png"
+  Title: "pravj | cursor"
+  Person: "Pravendra Singh"
+  Quote: "waiting for the end.."

@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lan="en">
 	<head>
-		<title>{{ site.cursor.title }}</title>
+		<title>{{ site.cursor.Title }}</title>
 		<meta charset="utf-8">
 
-		<link rel="shortcut icon" href="{{ site.cursor.favicon }}">
+		<link rel="shortcut icon" href="assets/favicon.png">
+		<script src="assets/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200">
+		<link rel="stylesheet" type="text/css" href="assets/css/cursor.css">
 	</head>
 
 	<body>
-		<ul>
-		{% for event in site.data.cursor %}
-			<li>{{ event.title }}</li>
-			<li>{{ event.info }}</li>
-			<li>{{ event.date }}</li>
-			<li>{{ event.tag }}</li>
-		{% endfor %}
-		</ul>
+		{% include _header.html %}
 	</body>
+
+	<script src="assets/js/cursor.js"></script>
 </html>

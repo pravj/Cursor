@@ -1,0 +1,37 @@
+/*
+* - cursor.css -
+* Pravendra Singh
+*/
+
+body{
+	margin: 0px;
+	background: #343434;
+}
+
+.header{
+	display: block;
+	height: 60px;
+	background: #fcfcfc;
+}
+
+.header-left{
+	float: left;
+	font-family: 'Raleway';
+	font-size: 30px;
+	margin: 9px;
+}
+
+.header-right{
+	float: right;
+	font-family: 'Raleway';
+	font-size: 20px;
+	font-weight: bold;
+	color: #b3c7b3;
+	margin: 16px 20px 16px 16px;
+}
+
+.mid{
+	height: 20%;
+	display: block;
+	background: green;
+}
