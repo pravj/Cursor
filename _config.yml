@@ -1,0 +1,13 @@
+source:      .
+destination: ./_site
+
+timezone: Asia/Calcutta
+
+url: http://localhost:4000
+port: 4000
+host: 0.0.0.0
+baseurl: /
+
+cursor:
+  title: "pravj | cursor"
+  favicon: "./assets/favicon.png"

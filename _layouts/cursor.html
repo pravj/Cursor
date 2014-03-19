@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lan="en">
+	<head>
+		<title>{{ site.cursor.title }}</title>
+		<meta charset="utf-8">
+
+		<link rel="shortcut icon" href="{{ site.cursor.favicon }}">
+	</head>
+
+	<body>
+		<ul>
+		{% for event in site.data.cursor %}
+			<li>{{ event.title }}</li>
+			<li>{{ event.info }}</li>
+			<li>{{ event.date }}</li>
+			<li>{{ event.tag }}</li>
+		{% endfor %}
+		</ul>
+	</body>
+</html>
