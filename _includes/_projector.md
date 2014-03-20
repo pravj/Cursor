@@ -5,7 +5,6 @@
 		<div class="element-title">
 			{{element.title}}
 		</div>
-
 		<hr>
 
 		<div class="element-info">

@@ -11,8 +11,8 @@
 	</head>
 
 	<body>
-		{% include _header.md %}
-		{% include _projector.md %}
+		{% include _header.html %}
+		{% include _projector.html %}
 	</body>
 
 	<script src="assets/js/cursor.js"></script>
