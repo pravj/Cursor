@@ -1,14 +1,9 @@
-source:      .
-destination: ./_site
-
-timezone: Asia/Calcutta
-
-url: http://localhost:4000
-port: 4000
-host: 0.0.0.0
-baseurl: /
-
+# paste this in your _config.yml
+# and edit these fields as well
 cursor:
-  Title: "Cursor : pravj"
-  Person: "Pravendra Singh"
-  Quote: "`` whenever I see them, it make me lost... ``"
+  # -- Title you want for page --
+  Title: "--Title--"
+  # -- Person's Name --
+  Person: "--Person--"
+  # -- Line whatever you want to add there --
+  Quote: "-- Quote --"
