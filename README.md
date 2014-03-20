@@ -17,4 +17,7 @@ live demo can be checked here : [`Cursor`](https://pravj.github.io/cursor)
 3. [Jekyll Official](http://jekyllrb.com/)
 
 ###Using Cursor:
-`edit /_config.yml as your need and add image and its meta-data in /_data/cursor.yml and you are done`
+1. `paste entire 'Cursor' directory's content to your root`
+2. `paste '/_config.yml' to your root's '_config.yml' and edit it`
+3. `add images in '/cursor/images' and its meta-data in /_data/cursor.yml`
+4. `and you are done..it can be accessed at ` - `yourdomain/cursor`
